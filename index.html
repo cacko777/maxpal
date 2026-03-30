@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAXPAL - Sprzedaż Palet Drewnianych | Euro, Przemysłowe</title>
+    <meta name="description" content="Sprzedaż używanych i nowych palet drewnianych. Palety Euro EPAL, przemysłowe, nadstawki. Szybka dostawa i atrakcyjne ceny.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .hero-bg { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2070&auto=format&fit=crop'); background-size: cover; background-position: center; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Nawigacja -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="text-2xl font-bold text-orange-600 underline decoration-2">MAXPAL</div>
+            <div class="hidden md:flex space-x-6 font-medium">
+                <a href="#oferta" class="hover:text-orange-600 transition">Oferta</a>
+                <a href="#transport" class="hover:text-orange-600 transition">Transport</a>
+                <a href="#kontakt" class="hover:text-orange-600 transition">Kontakt</a>
+            </div>
+            <a href="tel:+48123456789" class="bg-orange-600 text-white px-4 py-2 rounded-lg font-bold hover:bg-orange-700">Zadzwoń: 123 456 789</a>
+        </div>
+    </nav>
+
+    <!-- Sekcja Hero -->
+    <header class="hero-bg h-[500px] flex items-center justify-center text-center text-white px-4">
+        <div>
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4 text-white">SPRZEDAŻ PALET DREWNIANYCH</h1>
+            <p class="text-xl md:text-2xl mb-8">Solidne palety używane i nowe. Od ręki. Każda ilość.</p>
+            <a href="#kontakt" class="bg-white text-orange-600 px-8 py-3 rounded-full text-lg font-bold hover:bg-gray-100 transition">Zapytaj o cenę</a>
+        </div>
+    </header>
+
+    <!-- Dlaczego my? -->
+    <section class="py-16 container mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-12">Dlaczego warto kupować w MAXPAL?</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="p-6 bg-white rounded-xl shadow-sm border-t-4 border-orange-600">
+                <h3 class="font-bold text-xl mb-2">Gwarancja Jakości</h3>
+                <p>Każda używana paleta przechodzi selekcję. Brak próchnicy i uszkodzeń konstrukcyjnych.</p>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-sm border-t-4 border-orange-600">
+                <h3 class="font-bold text-xl mb-2">Duże Stany</h3>
+                <p>Posiadamy tysiące sztuk na placu. Nie czekasz tygodniami na dostawę.</p>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-sm border-t-4 border-orange-600">
+                <h3 class="font-bold text-xl mb-2">Konkurencyjne Ceny</h3>
+                <p>Brak pośredników. Jako bezpośredni dostawca oferujemy najlepsze stawki w regionie.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Oferta -->
+    <section id="oferta" class="bg-gray-100 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Nasze Produkty</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Produkt 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center text-gray-400 italic font-bold uppercase">Zdjęcie Palety Euro</div>
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-lg mb-2">Paleta Euro (EPAL)</h3>
+                        <p class="text-sm text-gray-600">I i II gatunek, certyfikowane</p>
+                    </div>
+                </div>
+                <!-- Produkt 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center text-gray-400 italic font-bold uppercase">Zdjęcie Przemysłowej</div>
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-lg mb-2">Przemysłowa 1200x800</h3>
+                        <p class="text-sm text-gray-600">Lekka i ciężka, świetna cena</p>
+                    </div>
+                </div>
+                <!-- Produkt 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center text-gray-400 italic font-bold uppercase">Zdjęcie Półpalety</div>
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-lg mb-2">Półpalety 800x600</h3>
+                        <p class="text-sm text-gray-600">Dostępne duże ilości</p>
+                    </div>
+                </div>
+                <!-- Produkt 4 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center text-gray-400 italic font-bold uppercase">Zdjęcie Nadstawek</div>
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-lg mb-2">Nadstawki Paletowe</h3>
+                        <p class="text-sm text-gray-600">Nowe i używane, standard Euro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transport i Kontakt -->
+    <section id="kontakt" class="py-16 container mx-auto px-4">
+        <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col md:flex-row">
+            <div class="bg-orange-600 text-white p-10 md:w-1/2">
+                <h2 class="text-3xl font-bold mb-6">Kontakt</h2>
+                <p class="mb-4"><strong>MAXPAL - Sprzedaż Palet</strong></p>
+                <p class="mb-2">ul. Przykładowa 12, 00-000 Miasto</p>
+                <p class="mb-6 font-bold text-2xl">Tel: 123 456 789</p>
+                <p class="mb-2 italic">Dostawa własnym transportem do 100 km!</p>
+                <p>E-mail: kontakt@maxpal.pl</p>
+            </div>
+            <div class="p-10 md:w-1/2 flex items-center">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Godziny otwarcia:</h3>
+                    <p>Pn - Pt: 07:00 - 17:00</p>
+                    <p>Sobota: 08:00 - 13:00</p>
+                    <p class="mt-6 text-gray-600 text-sm">Zadzwoń teraz i zapytaj o aktualne stany magazynowe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-gray-400 py-6 text-center text-sm">
+        &copy; 2026 MAXPAL - Wszystkie prawa zastrzeżone.
+    </footer>
+
+</body>
+</html>
